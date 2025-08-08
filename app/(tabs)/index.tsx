@@ -109,17 +109,18 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 30,
+    padding: 25,
     justifyContent: 'flex-end',
+    marginBottom: 50,
   },
   themeToggle: {
     fontSize: 20,
     alignSelf: 'flex-end',
-    marginBottom: 150,
+    marginBottom: 100,
     padding: 10,
   },
   display: {
-    fontSize: 60,
+    fontSize: 68,
     fontWeight: '300',
     textAlign: 'right',
     marginBottom: 20,
@@ -132,14 +133,14 @@ const styles = StyleSheet.create({
     marginBottom: 15,
   },
   button: {
-    width: 70,
-    height: 70,
-    borderRadius: 35,
+    width: 80,
+    height: 80,
+    borderRadius: 30,
     justifyContent: 'center',
     alignItems: 'center',
   },
   text: {
-    fontSize: 24,
+    fontSize: 28,
     fontWeight: '300',
   },
 });
